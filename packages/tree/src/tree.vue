@@ -53,6 +53,10 @@
         type: Boolean,
         default: true
       },
+      checkDescendants: {
+        type: Boolean,
+        default: false
+      },
       autoExpandParent: {
         type: Boolean,
         default: true
@@ -164,6 +168,7 @@
         load: this.load,
         currentNodeKey: this.currentNodeKey,
         checkStrictly: this.checkStrictly,
+        checkDescendants: this.checkDescendants,
         defaultCheckedKeys: this.defaultCheckedKeys,
         defaultExpandedKeys: this.defaultExpandedKeys,
         autoExpandParent: this.autoExpandParent,
